@@ -19,6 +19,8 @@ I'm a builder — shipping full-stack apps, smart contracts, and open-data tools
 - **blockdag-contracts** — Solidity contracts for the BlockDAG Primordial Testnet
 - **data-gov-starter** — DCAT-US open-data starter kit for civic tech projects
 
+📜 Read the longer story: [MANUSCRIPT.md](MANUSCRIPT.md)
+
 ---
 
 ## 📈 GitHub Stats

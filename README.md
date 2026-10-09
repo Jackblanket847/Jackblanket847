@@ -9,6 +9,7 @@ I'm a builder — shipping full-stack apps, smart contracts, and open-data tools
 - Full-stack builder: Android/Termux, Python, JavaScript, Solidity
 - Building on BlockDAG (EVM smart contracts, Primordial Testnet)
 - Civic tech & open data — DCAT-US tooling and federal grant R&D
+- ORCID iD: [0009-0007-4965-5314](https://orcid.org/0009-0007-4965-5314)
 - Open to collaborations, freelance, and full-time opportunities
 
 ---

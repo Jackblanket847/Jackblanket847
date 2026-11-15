@@ -1,0 +1,36 @@
+name: Filesystem Tree Report
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  tree-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Generate tree report
+        run: |
+          {
+            echo "# Filesystem Tree Report"
+            echo ""
+            echo "Generated: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo ""
+            echo '```'
+            echo "/"
+            for d in bin boot dev etc home lib media mnt opt proc root run sbin srv sys tmp usr var; do
+              count=$(find "$d" -type f | wc -l)
+              echo "├── $d/ ($count files)"
+            done
+            echo '```'
+          } | tee tree-report.txt
+          cat tree-report.txt
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: filesystem-tree-report
+          path: tree-report.txt

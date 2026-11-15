@@ -1,0 +1,55 @@
+name: Validate Filesystem Tree
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "bin/**"
+      - "boot/**"
+      - "dev/**"
+      - "etc/**"
+      - "home/**"
+      - "lib/**"
+      - "media/**"
+      - "mnt/**"
+      - "opt/**"
+      - "proc/**"
+      - "root/**"
+      - "run/**"
+      - "sbin/**"
+      - "srv/**"
+      - "sys/**"
+      - "tmp/**"
+      - "usr/**"
+      - "var/**"
+      - "TREE.md"
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-tree:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Verify all 18 FHS directories exist with a README
+        run: |
+          set -e
+          for d in bin boot dev etc home lib media mnt opt proc root run sbin srv sys tmp usr var; do
+            if [ ! -d "$d" ]; then
+              echo "MISSING directory: $d"
+              exit 1
+            fi
+            if [ ! -f "$d/README.md" ]; then
+              echo "MISSING README in: $d"
+              exit 1
+            fi
+            echo "OK /$d"
+          done
+          echo "Filesystem tree is complete: 18/18 directories present."
+
+      - name: Show tree
+        run: |
+          echo "--- repo tree (top 2 levels) ---"
+          find . -path ./.git -prune -o -type d -print | sort | head -60

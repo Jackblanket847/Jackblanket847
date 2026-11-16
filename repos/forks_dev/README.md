@@ -1,0 +1,86 @@
+# repos/forks_dev
+
+Forks — developer tools, languages, and infrastructure.
+
+**78 repos.** Anchor: `git` — the chain step `filing.py` resolves for this folder. Every repo in this folder links its home-anchor variables back to `repos/home` (the .profile home).
+
+| Repo | Kind | Visibility | Language | Updated |
+| --- | --- | --- | --- | --- |
+| [Apache.maven.site](https://github.com/Jackblanket847/Apache.maven.site) | fork | public | — | 2025-02-06 |
+| [apache.mod.bonjour](https://github.com/Jackblanket847/apache.mod.bonjour) | fork | public | C | 2025-02-09 |
+| [api.Atproto.feed.generator.github.io](https://github.com/Jackblanket847/api.Atproto.feed.generator.github.io) | fork | public | — | 2025-11-17 |
+| [api.github.community](https://github.com/Jackblanket847/api.github.community) | fork | public | Ruby | 2025-06-02 |
+| [aws-cli](https://github.com/Jackblanket847/aws-cli) | fork | public | Python | 2025-05-13 |
+| [aws-cloudformation-templates](https://github.com/Jackblanket847/aws-cloudformation-templates) | fork | public | — | 2025-02-04 |
+| [aws-toolkit-vscode](https://github.com/Jackblanket847/aws-toolkit-vscode) | fork | public | TypeScript | 2024-11-19 |
+| [azure-docs](https://github.com/Jackblanket847/azure-docs) | fork | public | — | 2025-01-29 |
+| [azure-docs-sdk-dotnet](https://github.com/Jackblanket847/azure-docs-sdk-dotnet) | fork | public | — | 2025-05-15 |
+| [bazel](https://github.com/Jackblanket847/bazel) | fork | public | Java | 2025-05-25 |
+| [boto](https://github.com/Jackblanket847/boto) | fork | public | Python | 2025-05-07 |
+| [boto3](https://github.com/Jackblanket847/boto3) | fork | public | — | 2025-06-05 |
+| [brew](https://github.com/Jackblanket847/brew) | fork | public | Ruby | 2026-03-22 |
+| [client](https://github.com/Jackblanket847/client) | fork | public | Go | 2025-10-28 |
+| [conda](https://github.com/Jackblanket847/conda) | fork | public | — | 2025-09-25 |
+| [containers](https://github.com/Jackblanket847/containers) | fork | public | Shell | 2025-02-07 |
+| [dev](https://github.com/Jackblanket847/dev) | fork | public | Shell | 2025-10-08 |
+| [DirectXShaderCompiler](https://github.com/Jackblanket847/DirectXShaderCompiler) | fork | public | — | 2026-04-09 |
+| [docker-client-swift](https://github.com/Jackblanket847/docker-client-swift) | fork | public | Swift | 2025-02-10 |
+| [docker-roadmap](https://github.com/Jackblanket847/docker-roadmap) | fork | public | — | 2024-10-31 |
+| [docs.jackblanket847.github](https://github.com/Jackblanket847/docs.jackblanket847.github) | fork | public | JavaScript | 2025-02-23 |
+| [flyway](https://github.com/Jackblanket847/flyway) | fork | public | Java | 2025-04-22 |
+| [formulae.brew.sh](https://github.com/Jackblanket847/formulae.brew.sh) | fork | public | — | 2025-04-18 |
+| [git](https://github.com/Jackblanket847/git) | fork | public | C | 2026-03-02 |
+| [git-credential-manager](https://github.com/Jackblanket847/git-credential-manager) | fork | public | C# | 2024-02-12 |
+| [git-gui](https://github.com/Jackblanket847/git-gui) | fork | public | — | 2025-09-25 |
+| [git-lfs.src](https://github.com/Jackblanket847/git-lfs.src) | fork | public | Go | 2025-02-09 |
+| [gitea.com](https://github.com/Jackblanket847/gitea.com) | fork | public | — | 2025-06-09 |
+| [github-audio](https://github.com/Jackblanket847/github-audio) | fork | public | — | 2025-02-06 |
+| [github.com.h2oai.notebook-theme](https://github.com/Jackblanket847/github.com.h2oai.notebook-theme) | fork | public | — | 2025-01-28 |
+| [githubdeployments-submodule-example](https://github.com/Jackblanket847/githubdeployments-submodule-example) | fork | public | — | 2025-10-06 |
+| [GitJournal](https://github.com/Jackblanket847/GitJournal) | fork | public | — | 2025-08-16 |
+| [google-cloud-go](https://github.com/Jackblanket847/google-cloud-go) | fork | public | — | 2025-05-29 |
+| [gradle](https://github.com/Jackblanket847/gradle) | fork | public | Groovy | 2024-09-19 |
+| [heroku-buildpack-python](https://github.com/Jackblanket847/heroku-buildpack-python) | fork | public | Ruby | 2025-05-15 |
+| [homebrew-core](https://github.com/Jackblanket847/homebrew-core) | fork | public | Ruby | 2024-09-08 |
+| [homebrew-tap](https://github.com/Jackblanket847/homebrew-tap) | fork | public | — | 2026-05-22 |
+| [intellij-community](https://github.com/Jackblanket847/intellij-community) | fork | public | Java | 2025-09-18 |
+| [jetBrains-kotlin](https://github.com/Jackblanket847/jetBrains-kotlin) | fork | public | Kotlin | 2024-11-19 |
+| [jfrog-github-example](https://github.com/Jackblanket847/jfrog-github-example) | fork | public | Python | 2025-05-07 |
+| [jupyterhub](https://github.com/Jackblanket847/jupyterhub) | fork | public | — | 2025-01-30 |
+| [jupyterlab](https://github.com/Jackblanket847/jupyterlab) | fork | public | — | 2025-01-23 |
+| [jupyterlab_pygments](https://github.com/Jackblanket847/jupyterlab_pygments) | fork | public | Python | 2024-11-13 |
+| [Kubernetes-minikube](https://github.com/Jackblanket847/Kubernetes-minikube) | fork | public | — | 2024-11-27 |
+| [kueue](https://github.com/Jackblanket847/kueue) | fork | public | — | 2025-02-05 |
+| [libgit2](https://github.com/Jackblanket847/libgit2) | fork | public | — | 2023-11-29 |
+| [moby](https://github.com/Jackblanket847/moby) | fork | public | — | 2025-01-25 |
+| [mongo](https://github.com/Jackblanket847/mongo) | fork | public | C++ | 2025-06-04 |
+| [mongodb-atlas-kubernetes](https://github.com/Jackblanket847/mongodb-atlas-kubernetes) | fork | public | — | 2025-04-22 |
+| [n8n.nodes.cloudconvert](https://github.com/Jackblanket847/n8n.nodes.cloudconvert) | fork | public | — | 2025-05-19 |
+| [ncbi-cxx-toolkit-public](https://github.com/Jackblanket847/ncbi-cxx-toolkit-public) | fork | public | C++ | 2025-01-06 |
+| [node](https://github.com/Jackblanket847/node) | fork | public | — | 2025-10-03 |
+| [node-mongodb-native](https://github.com/Jackblanket847/node-mongodb-native) | fork | public | — | 2025-10-08 |
+| [nodes.node](https://github.com/Jackblanket847/nodes.node) | fork | public | — | 2025-02-06 |
+| [OpenCore-Legacy-Patcher](https://github.com/Jackblanket847/OpenCore-Legacy-Patcher) | fork | public | Python | 2025-02-23 |
+| [podman-desktop](https://github.com/Jackblanket847/podman-desktop) | fork | public | — | 2025-01-28 |
+| [portainer](https://github.com/Jackblanket847/portainer) | fork | public | — | 2024-11-23 |
+| [refined-github](https://github.com/Jackblanket847/refined-github) | fork | public | — | 2025-08-18 |
+| [server-docker-images](https://github.com/Jackblanket847/server-docker-images) | fork | public | — | 2025-02-22 |
+| [setup-node](https://github.com/Jackblanket847/setup-node) | fork | public | — | 2023-12-29 |
+| [SnowBotDev](https://github.com/Jackblanket847/SnowBotDev) | fork | public | Ruby | 2025-05-10 |
+| [sphinx](https://github.com/Jackblanket847/sphinx) | fork | public | — | 2025-01-27 |
+| [Supa-Migrate](https://github.com/Jackblanket847/Supa-Migrate) | fork | public | Jupyter Notebook | 2025-05-07 |
+| [supabase](https://github.com/Jackblanket847/supabase) | fork | public | — | 2025-01-22 |
+| [superset](https://github.com/Jackblanket847/superset) | fork | public | — | 2026-01-26 |
+| [terraform](https://github.com/Jackblanket847/terraform) | fork | public | Go | 2024-10-29 |
+| [terraform-example-foundation](https://github.com/Jackblanket847/terraform-example-foundation) | fork | public | — | 2025-06-01 |
+| [terraform-google-analytics-lakehouse](https://github.com/Jackblanket847/terraform-google-analytics-lakehouse) | fork | public | — | 2025-05-17 |
+| [terraform-provider-aws](https://github.com/Jackblanket847/terraform-provider-aws) | fork | public | Go | 2025-01-20 |
+| [terraform.google.cloud.run](https://github.com/Jackblanket847/terraform.google.cloud.run) | fork | public | — | 2025-05-19 |
+| [terraformer](https://github.com/Jackblanket847/terraformer) | fork | public | — | 2025-02-05 |
+| [tigerbrew](https://github.com/Jackblanket847/tigerbrew) | fork | public | — | 2026-07-05 |
+| [tree-sitter](https://github.com/Jackblanket847/tree-sitter) | fork | public | Rust | 2026-09-29 |
+| [vscode](https://github.com/Jackblanket847/vscode) | fork | public | — | 2025-10-08 |
+| [vscode-esp-idf-extension](https://github.com/Jackblanket847/vscode-esp-idf-extension) | fork | public | — | 2024-11-06 |
+| [vscode-marquee](https://github.com/Jackblanket847/vscode-marquee) | fork | public | TypeScript | 2025-10-03 |
+| [vscode-yaml](https://github.com/Jackblanket847/vscode-yaml) | fork | public | — | 2025-03-31 |
+| [xurl](https://github.com/Jackblanket847/xurl) | fork | public | Go | 2025-05-17 |

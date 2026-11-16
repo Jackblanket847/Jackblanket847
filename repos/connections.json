@@ -1,0 +1,196 @@
+{
+  "repo": "Jackblanket847/Jackblanket847",
+  "home": {
+    "profile_repo": "Jackblanket847/Jackblanket847",
+    "url": "https://github.com/Jackblanket847/Jackblanket847",
+    "dev_url": "https://github.dev/Jackblanket847/Jackblanket847",
+    "owner": "Jackblanket847"
+  },
+  "inventory_date": "2026-11-16",
+  "totals": {
+    "repos": 500,
+    "owned": 86,
+    "forks": 414
+  },
+  "folders": [
+    "home",
+    "enterprise",
+    "builds",
+    "sites",
+    "learn",
+    "forks_ai",
+    "forks_crypto",
+    "forks_gov",
+    "forks_payments",
+    "forks_space",
+    "forks_dev",
+    "forks_web",
+    "forks_misc"
+  ],
+  "categories": [
+    {
+      "folder": "home",
+      "repos": 10,
+      "anchor": "Jackblanket847",
+      "description": "The .profile home itself \u2014 the profile repo, the home site, and the GitHub config."
+    },
+    {
+      "folder": "enterprise",
+      "repos": 11,
+      "anchor": "enterprise",
+      "description": "Business and entity scaffolding \u2014 enterprise tree, REPO databank, nested master."
+    },
+    {
+      "folder": "builds",
+      "repos": 12,
+      "anchor": "termux-site",
+      "description": "Active builds \u2014 Termux site, Mothership, PowerBank, BlockDAG contracts, and the tools that run them."
+    },
+    {
+      "folder": "sites",
+      "repos": 28,
+      "anchor": "mental-health-enterprise",
+      "description": "Web properties and media \u2014 Mental Health Enterprise, Smith Seed Roots, Newspaper Media Agency, and the landing pages."
+    },
+    {
+      "folder": "learn",
+      "repos": 25,
+      "anchor": "hello-world",
+      "description": "Learning, practice, and demos \u2014 tutorials, games, and starter projects."
+    },
+    {
+      "folder": "forks_ai",
+      "repos": 21,
+      "anchor": "nanoGPT",
+      "description": "Forks \u2014 AI, LLMs, and agents (Karpathy trio, cookbooks, agent frameworks)."
+    },
+    {
+      "folder": "forks_crypto",
+      "repos": 48,
+      "anchor": "go-ethereum",
+      "description": "Forks \u2014 crypto, chains, wallets, and web3."
+    },
+    {
+      "folder": "forks_gov",
+      "repos": 39,
+      "anchor": "catalog.data.gov",
+      "description": "Forks \u2014 government, open data, and public research identity (data.gov, USGPO, ORCID)."
+    },
+    {
+      "folder": "forks_payments",
+      "repos": 15,
+      "anchor": "braintree-web",
+      "description": "Forks \u2014 payments and commerce SDKs (Braintree, PayPal, Plaid, Stripe, Shopify)."
+    },
+    {
+      "folder": "forks_space",
+      "repos": 2,
+      "anchor": "stellarium-web-engine",
+      "description": "Forks \u2014 space and fleet (Stellarium sky engine, proto-fleet)."
+    },
+    {
+      "folder": "forks_dev",
+      "repos": 78,
+      "anchor": "git",
+      "description": "Forks \u2014 developer tools, languages, and infrastructure."
+    },
+    {
+      "folder": "forks_web",
+      "repos": 57,
+      "anchor": "wordpress",
+      "description": "Forks \u2014 web, mobile, and docs."
+    },
+    {
+      "folder": "forks_misc",
+      "repos": 154,
+      "anchor": "core",
+      "description": "Forks \u2014 everything else, unclassified by keyword."
+    }
+  ],
+  "connections": [
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "enterprise.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "builds.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "sites.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "learn.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_ai.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_crypto.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_gov.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_payments.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_space.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_dev.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_web.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    },
+    {
+      "from": "home.HOME_PROFILE_REPO",
+      "to": "forks_misc.HOME_PROFILE_REPO",
+      "via": "LINKS"
+    }
+  ],
+  "api": {
+    "default_port": 8096,
+    "module": "api/variable_listing.py",
+    "routes": [
+      "/",
+      "/api/repos",
+      "/api/repos/home",
+      "/api/repos/enterprise",
+      "/api/repos/builds",
+      "/api/repos/sites",
+      "/api/repos/learn",
+      "/api/repos/forks_ai",
+      "/api/repos/forks_crypto",
+      "/api/repos/forks_gov",
+      "/api/repos/forks_payments",
+      "/api/repos/forks_space",
+      "/api/repos/forks_dev",
+      "/api/repos/forks_web",
+      "/api/repos/forks_misc",
+      "/api/filing",
+      "/api/links",
+      "/api/inventory"
+    ]
+  }
+}
